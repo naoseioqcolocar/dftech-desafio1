@@ -6,7 +6,7 @@
 
 
 <h4>Essas são as linguagens utilizadas dentro do projeto</h4>
- <img src="https://user-images.githubusercontent.com/30186107/29488525-f55a69d0-84da-11e7-8a39-5476f663b5eb.png" width="320" height="205" />
+ <img src="https://user-images.githubusercontent.com/30186107/29488525-f55a69d0-84da-11e7-8a39-5476f663b5eb.png" width="30%"/>
 
 Exemplo   | Valor do exemplo
 --------- | ------
