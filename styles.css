@@ -1,23 +1,16 @@
 
-* {
-    margin: auto;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Open Sans', sans-serif;
-}
-
 #menu{
     position: fixed;
     right: 10;
     top: 0%;
-    width: 38em;
+    width: 1000em;
     background-color: rgb(37, 37, 39);
 }
 
 #menu ul {
-    max-width: 800px;
+    max-width: 900px;
     list-style: none;
-    padding: 230;
+    padding: 0;
 }
 
 #menu ul li {
@@ -28,7 +21,7 @@
     color: #FFF;
     padding: 10px;
     display: inline-block;
-    text-decoration: none;
+   text-decoration: none; 
     transition: background .4s;
 }
 
@@ -36,6 +29,27 @@
     background-color: rgb(17, 85, 139);
 }
 
-h2, p, h3{
-    text-align: center;
-}
+
+#links {
+    float: left;
+    max-width: 50%;	
+  }
+  #links li {
+    cursor: pointer;
+    transition: 0.3s ease;
+    opacity: 0.7;
+  }
+  
+  #links li:hover {
+    opacity: 1;
+  }
+  
+  #respostas {
+    float: right;
+    max-width: 50%;
+  }
+  
+  .faq {
+    margin: 20px;
+    display: none; /* coloca todos como invisiveis inicialmente */
+  }
