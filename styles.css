@@ -1,9 +1,19 @@
 
+*{
+  font-family: sans-serif;
+  
+}
+div{
+  border-style: solid;
+  border-color: rgb(17, 85, 139);
+
+}
 #menu{
     position: fixed;
-    right: 10;
+    right: 0%;
+    left: 0%;
     top: 0%;
-    width: 1000em;
+    width: em;
     background-color: rgb(37, 37, 39);
 }
 
@@ -21,12 +31,21 @@
     color: #FFF;
     padding: 10px;
     display: inline-block;
-   text-decoration: none; 
+    text-decoration: none; 
     transition: background .4s;
 }
 
 #menu ul li a:hover {
     background-color: rgb(17, 85, 139);
+}
+
+h3{
+  text-align: center;
+}
+
+#logo{
+  width: 100px;
+  align-items: baseline;
 }
 
 
@@ -42,6 +61,9 @@
   
   #links li:hover {
     opacity: 1;
+    font-weight: 900;
+    color:rgb(243, 243, 250);
+    background-color: rgb(1, 15, 27);
   }
   
   #respostas {

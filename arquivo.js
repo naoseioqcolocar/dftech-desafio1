@@ -5,7 +5,7 @@ var msg = "Lascado estamos mas olha a data: "
         var dateNow = Date.now();
         console.log(dateNow);
 
-        alert(msg+" "+dataFormatada+"e a hora: "+dateNow)
+        // alert(msg+" "+dataFormatada+"e a hora: "+dateNow)
         console.log(msg);
 
 
